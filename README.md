@@ -1,7 +1,7 @@
 Procedure to evaluate the performance of RCR ciphers using the SUPERCOP toolkit
 -------------------------------------------------------------------------------
 1. Download the latest SUPERCOP from https://bench.cr.yp.to/supercop.html and unpack it.
-2. Copy the folders rcr32,rcr64, rcr32secure and rcr64secure into the SUPERCOP stream cipher directory supercop-<version>/crypto_stream/.
+2. Unpack RCR_supercop.tar and copy the folders rcr32,rcr64, rcr32secure and rcr64secure into the SUPERCOP stream cipher directory supercop-<version>/crypto_stream/.
 3. Run the following commands:
 	cd supercop-<version>/
 	sh do-part crypto_stream rcr32
